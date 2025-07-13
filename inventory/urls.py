@@ -17,8 +17,14 @@ urlpatterns = [
     # Stock Movement URLs
     path('stock-movements/', views.stock_movement_list, name='stock-movement-list'),
     path('stock-movements/<int:pk>/', views.stock_movement_detail, name='stock-movement-detail'),
+    path('stock-audit/', views.stock_audit_logs, name='stock-audit'),
+
     
     # Creative features 
     path('low-stock/', views.low_stock_products, name='low-stock'),
     path('inventory/stats/', views.inventory_stats, name='inventory-stats'),
+
+    # registration
+    path('register/', views.register_user, name='register'),
+
 ]

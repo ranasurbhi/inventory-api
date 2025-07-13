@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+
+# Env
+.env
+env/
+
+# MySQL dumps (optional)
+*.sql
+
+# Migrations (optional)
+**/migrations/
