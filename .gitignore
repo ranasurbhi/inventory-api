@@ -1,7 +1,3 @@
-# Python
-__pycache__/
-*.py[cod]
-*.env
 
 # Django
 *.log
@@ -9,13 +5,33 @@ __pycache__/
 *.pyc
 local_settings.py
 
-
-# Env
-.env
-env/
-
 # MySQL dumps (optional)
 *.sql
 
 # Migrations (optional)
 **/migrations/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python compiled files
+*.pyc
+*.pyd
+*.pyo
+
+
+# Environment variables
+.env
